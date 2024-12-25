@@ -1659,7 +1659,9 @@ float: right;
 	color: #fff;
 }
 
-.head_top {background: #9ada07;
+.head_top {
+/* background: #9ada07; */
+background: #0822b6;
 margin-bottom: 5px;
 
 }
@@ -1674,14 +1676,15 @@ float: left;
 .top-box h6 {
 	float: right;
 	padding-top: 13px;
-    color: #000;
+    color: #fff9f9;
+	font-size: 16px;
 }
 ul.sociel_link li {
 	display: inline-block;
 }
 
 ul.sociel_link li a {
-color: #000;
+color: #fffdfd;
 width: 50px;
 height: 50px;
 float: left;
@@ -2170,24 +2173,25 @@ ul.lik li a:hover {
 }
 
 .copyright {
-	background-color: #9ada07;
+	/* background-color: #9ada07; */
+	background: #0822b6;
 	padding: 20px 0px;
 	margin-top: 20px;
 	height: 70px;
 }
 
 .copyright p {
-	color: #023023;
+	color: #ffffff !important;
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center !important;
 }
 
 .copyright a{
-	color: #023ab3;
+	color: #9eff02;
 }
 .copyright a:hover {
-	color: #fff;
+	color: #00fd2a;
 }
 
 /** end footer section **/
