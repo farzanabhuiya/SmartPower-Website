@@ -78,7 +78,7 @@
                                  <a href="#">Product</a>
                                  <ul class="submenu">
                                     <li class="dropdown">
-                                       <a href="ictProduct.html">ICT Equipment Part</a>
+                                       <a href="ictProduct.html">ICT Equipment</a>
                                        <ul class="submenu">
                                           <li><a href="cctvProjector.html">CCTV,Projector</a></li>
                                           <li><a href="pabxPa.html">PABX,PA</a></li>
@@ -86,7 +86,7 @@
                                        </ul>
                                     </li>
                                     <li class="dropdown">
-                                       <a href="powerProduct.html">Power Equipment Part</a>
+                                       <a href="powerProduct.html">Power Equipment</a>
                                        <ul class="submenu">
                                           <li><a href="product details2.html">Generators</a></li>
                                           <li><a href="product details1.html">Voltage</a></li>
@@ -187,59 +187,49 @@
 
 
                
-      <!-- Client start -->
+    <!-- Targeted Business Area  -->
+      <div class="about">
+         <div class="container">
+            <div class="row">
+               <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="about_box">
+                     <figure><img src="images/area.webp"/></figure>
+                  </div>
+               </dir>
+                <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12 my-4">
+                  <div class="about_box">
+                     <h3 >Targeted Business Area </h3>
+                     <p>Smart Power And Company, always ready to provide support to Corporate Office, Bank, Garments, Financial Institution, Pharmaceutical, Telecommunication Sector, NGO, Hospital, Educational Institution and to those organizations where they need to ensure security .</p>
+                     
+                     
+                  </div>
+               </dir> 
+            </div>
+         </div>
+      </div>
 
-<section class="partners-section py-5">
-   <div class="container text-center">
-       <h2 class="section-title font-weight-bold mb-3">OUR<strong class="black"> CLIENTS</strong> </h2>
-       <p class="section-subtitle mb-4">
-           The number of our clients is increasing day by day. Some of our valuable Clients are below:
-       </p>
-       
-       <!-- Partner Logos Rows -->
-       <div class="row justify-content-center">
-           <!-- First Row -->
-           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
-               <img src="images/breb4.png" alt="BREB" class="partner-logo">
-               <p >BREB</p>
-           </div>
-           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
-               <img src="images/BITAC.png" alt="BITAC" class="partner-logo">
-               <p >BITAC</p>
-           </div>
-           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
-               <img src="images/unhcr.webp" alt="UNHCR" class="partner-logo">
-               <p >UNHCR</p>
-           </div>
-           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
-               <img src="images/undp1.jpg" alt="UNDP" class="partner-logo">
-               <p >UNDP</p>
-           </div>
-       </div>
 
-       <div class="row justify-content-center">
-           <!-- Second Row -->
-           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
-               <img src="images/BDRCS.png" alt="BDRCS" class="partner-logo">
-               <p >BDRCS</p>
-           </div>
-           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
-               <img src="images/IDEB.png" alt="IDEB" class="partner-logo">
-               <p >IDEB</p>
-           </div>
-           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
-               <img src="images/nn.png" alt="NPID" class="partner-logo">
-               <p >NPID</p>
-           </div>
-           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
-               <img src="images/mg.png" alt="MG" class="partner-logo">
-               <p >MG</p>
-           </div>
-       </div>
-   </div>
-</section>
+        <!--Support & Capabilities   -->
+        <div class="about">
+         <div class="container">
+            <div class="row">
+               
+                <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12 my-4">
+                  <div class="about_box">
+                     <h3>Support & Capabilities </h3>
+                     <p>Through our highly skilled and experienced engineers, we are able to provide a service that is second to none. With the versatility, capabilities and parts facilities to maintain all types of security equipment, coupled with fast response times, Smart Power and Company is well positioned to make sure your security systems and equipment other job. </p>     
+                  </div>
+               </dir>
+               
+               <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="about_box">
+                     <figure><img src="images/support.jpg"/></figure>
+                  </div>
+               </dir>
+            </div>
+         </div>
+      </div>
 
-   <!-- Client end -->
 
 
       <!--  footer --> 
@@ -329,5 +319,17 @@
          });
          
       </script> 
+      <script>
+         document.querySelectorAll('.dropdown').forEach((dropdown) => {
+           dropdown.addEventListener('mouseenter', () => {
+             const submenu = dropdown.querySelector('.submenu');
+             if (submenu) submenu.style.display = 'block';
+           });
+         
+           dropdown.addEventListener('mouseleave', () => {
+             const submenu = dropdown.querySelector('.submenu');
+             if (submenu) submenu.style.display = 'none';
+           });
+         });</script>
    </body>
 </html>

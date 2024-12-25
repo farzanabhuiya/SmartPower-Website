@@ -75,7 +75,7 @@
                                  <a href="#">Product</a>
                                  <ul class="submenu">
                                     <li class="dropdown">
-                                       <a href="ictProduct.html">ICT Equipment Part</a>
+                                       <a href="ictProduct.html">ICT Equipment</a>
                                        <ul class="submenu">
                                           <li><a href="cctvProjector.html">CCTV,Projector</a></li>
                                           <li><a href="pabxPa.html">PABX,PA</a></li>
@@ -83,7 +83,7 @@
                                        </ul>
                                     </li>
                                     <li class="dropdown">
-                                       <a href="powerProduct.html">Power Equipment Part</a>
+                                       <a href="powerProduct.html">Power Equipment</a>
                                        <ul class="submenu">
                                           <li><a href="product details2.html">Generators</a></li>
                                           <li><a href="product details1.html">Voltage</a></li>
@@ -172,10 +172,64 @@
 
 
 
+       <!-- Client start -->
+
+<section class="partners-section py-5">
+   <div class="container text-center">
+       <h2 class="section-title font-weight-bold mb-3">OUR<strong class="black"> CLIENTS</strong> </h2>
+       <p class="section-subtitle mb-4">
+           The number of our clients is increasing day by day. Some of our valuable Clients are below:
+       </p>
+       
+       <!-- Partner Logos Rows -->
+       <div class="row justify-content-center">
+           <!-- First Row -->
+           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
+               <img src="images/breb4.png" alt="BREB" class="partner-logo">
+               <p >BREB</p>
+           </div>
+           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
+               <img src="images/BITAC.png" alt="BITAC" class="partner-logo">
+               <p >BITAC</p>
+           </div>
+           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
+               <img src="images/unhcr.webp" alt="UNHCR" class="partner-logo">
+               <p >UNHCR</p>
+           </div>
+           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
+               <img src="images/undp1.jpg" alt="UNDP" class="partner-logo">
+               <p >UNDP</p>
+           </div>
+       </div>
+
+       <div class="row justify-content-center">
+           <!-- Second Row -->
+           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
+               <img src="images/BDRCS.png" alt="BDRCS" class="partner-logo">
+               <p >BDRCS</p>
+           </div>
+           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
+               <img src="images/IDEB.png" alt="IDEB" class="partner-logo">
+               <p >IDEB</p>
+           </div>
+           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
+               <img src="images/nn.png" alt="NPID" class="partner-logo">
+               <p >NPID</p>
+           </div>
+           <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 client">
+               <img src="images/mg.png" alt="MG" class="partner-logo">
+               <p >MG</p>
+           </div>
+       </div>
+   </div>
+</section>
+
+   <!-- Client end -->
+
 
 
       <!-- Targeted Business Area  -->
-      <div class="about">
+      <!-- <div class="about">
          <div class="container">
             <div class="row">
                <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
@@ -193,11 +247,11 @@
                </dir> 
             </div>
          </div>
-      </div>
+      </div> -->
 
 
         <!--Support & Capabilities   -->
-        <div class="about">
+        <!-- <div class="about">
          <div class="container">
             <div class="row">
                
@@ -215,7 +269,7 @@
                </dir>
             </div>
          </div>
-      </div>
+      </div> -->
 
 
 
@@ -368,5 +422,18 @@
          });
          
       </script> 
+
+<script>
+   document.querySelectorAll('.dropdown').forEach((dropdown) => {
+     dropdown.addEventListener('mouseenter', () => {
+       const submenu = dropdown.querySelector('.submenu');
+       if (submenu) submenu.style.display = 'block';
+     });
+   
+     dropdown.addEventListener('mouseleave', () => {
+       const submenu = dropdown.querySelector('.submenu');
+       if (submenu) submenu.style.display = 'none';
+     });
+   });</script>
    </body>
 </html>

@@ -77,7 +77,7 @@
                                  <a href="#">Product</a>
                                  <ul class="submenu">
                                     <li class="dropdown">
-                                       <a href="ictProduct.html">ICT Equipment Part</a>
+                                       <a href="ictProduct.html">ICT Equipment</a>
                                        <ul class="submenu">
                                           <li><a href="cctvProjector.html">CCTV,Projector</a></li>
                                           <li><a href="pabxPa.html">PABX,PA</a></li>
@@ -85,7 +85,7 @@
                                        </ul>
                                     </li>
                                     <li class="dropdown">
-                                       <a href="powerProduct.html">Power Equipment Part</a>
+                                       <a href="powerProduct.html">Power Equipment</a>
                                        <ul class="submenu">
                                           <li><a href="product details2.html">Generators</a></li>
                                           <li><a href="product details1.html">Voltage</a></li>
@@ -256,5 +256,17 @@
          });
          
       </script> 
+      <script>
+         document.querySelectorAll('.dropdown').forEach((dropdown) => {
+           dropdown.addEventListener('mouseenter', () => {
+             const submenu = dropdown.querySelector('.submenu');
+             if (submenu) submenu.style.display = 'block';
+           });
+         
+           dropdown.addEventListener('mouseleave', () => {
+             const submenu = dropdown.querySelector('.submenu');
+             if (submenu) submenu.style.display = 'none';
+           });
+         });</script>
    </body>
 </html>
