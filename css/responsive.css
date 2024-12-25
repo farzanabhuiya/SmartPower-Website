@@ -632,6 +632,25 @@ padding: 1px 0px 1px 0px;
 } 
 
 
+    
+    /* contact Address */
+ @media (max-width: 768px) {
+    .contactUs-inf{
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .inf-box {
+      width: 90%; 
+      margin: 10px 0;
+    }
+
+    .inf-box p {
+		margin-left: 40px;
+		text-align: center;
+		
+	  } 
+  } 
 
 
 
